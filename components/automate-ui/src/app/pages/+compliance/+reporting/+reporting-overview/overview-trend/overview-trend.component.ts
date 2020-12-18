@@ -19,7 +19,6 @@ export interface TrendData {
   failed: number;
   passed: number;
   skipped: number;
-  waived: number;
 }
 
 @Component({
@@ -76,7 +75,7 @@ export class OverviewTrendComponent implements OnChanges, OnDestroy  {
 
   get domainY() {
     const min = 0;
-    const max = d3.max(this.trendData, (d: TrendData) => d3.max([d.failed, d.passed, d.skipped, d.waived]));
+    const max = d3.max(this.trendData, (d: TrendData) => d3.max([d.failed, d.passed, d.skipped]));
     return [min, max];
   }
 
@@ -116,7 +115,7 @@ export class OverviewTrendComponent implements OnChanges, OnDestroy  {
 
   get linesSelection() {
     return this.svgSelection.selectAll('.status-line')
-      .data(['skipped', 'passed', 'failed', 'waived'].map(status => ({ status, values: this.trendData })));
+      .data(['skipped', 'passed', 'failed'].map(status => ({ status, values: this.trendData })));
   }
 
   ngOnChanges() {
@@ -202,7 +201,7 @@ export class OverviewTrendComponent implements OnChanges, OnDestroy  {
     const exit = this.dotsSelection.exit();
 
     const maxDots = 10;
-    const statuses = ['failed', 'passed', 'skipped', 'waived'];
+    const statuses = ['failed', 'passed', 'skipped'];
     const isHidden = (_d, i, ns) => i % Math.round(ns.length / maxDots) !== 0;
 
     enter
@@ -239,23 +238,13 @@ export class OverviewTrendComponent implements OnChanges, OnDestroy  {
 
     update.select('.status-dot.failed')
       .attr('r', d => {
-        if (d.failed === d.passed && d.failed === d.skipped && d.failed === d.waived) { return 10; }
         if (d.failed === d.passed && d.failed === d.skipped) { return 8; }
-        if (d.failed === d.passed && d.failed === d.waived) { return 8; }
-        if (d.failed === d.skipped && d.failed === d.waived) { return 8; }
-        if (d.failed === d.passed || d.failed === d.skipped || d.failed === d.waived) { return 6; }
+        if (d.failed === d.passed || d.failed === d.skipped) { return 6; }
         return 4;
       });
 
     update.select('.status-dot.passed')
-      .attr('r', d => {
-        if (d.passed === d.skipped && d.passed === d.waived) { return 8; }
-        if (d.passed === d.skipped || d.passed === d.waived) { return 6; }
-        return 4;  
-      })
-
-    update.select('.status-dot.skipped')
-      .attr('r', d => d.skipped === d.waived ? 6 : 4);
+      .attr('r', d => d.passed === d.skipped ? 6 : 4);
 
     update.select('.dot-group-bg')
       .attr('id', (_d, i) => `dot-group-bg-${i}`)
@@ -277,7 +266,7 @@ export class OverviewTrendComponent implements OnChanges, OnDestroy  {
     const update = this.tipsSelection.merge(enter);
     const exit = this.tipsSelection.exit();
 
-    const statuses = ['failed', 'passed', 'skipped', 'waived'];
+    const statuses = ['failed', 'passed', 'skipped'];
     const tipText = (count, status, type) => `${d3.format(',')(count)} ${status} ${type}`;
 
     enter

@@ -27,10 +27,6 @@
       &.skipped {
         stroke: $chef-dark-grey;
       }
-
-      &.waived {
-        stroke: $chef-med-grey;
-      }
     }
 
     .dot-group {
@@ -70,10 +66,6 @@
         &.skipped {
           stroke: $chef-dark-grey;
         }
-
-        &.waived {
-          stroke: $chef-med-grey;
-        }
       }
 
       &:hover {
@@ -101,10 +93,6 @@
 
           &.skipped {
             fill: $chef-dark-grey;
-          }
-          
-          &.waived {
-            fill: $chef-med-grey;
           }
         }
       }
@@ -180,10 +168,6 @@
 
       &.skipped::before {
         background: $chef-dark-grey;
-      }
-
-      &.waived::before {
-        background: $chef-med-grey;
       }
     }
   }
