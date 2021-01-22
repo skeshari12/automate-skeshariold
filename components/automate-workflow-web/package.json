@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@types/core-js": "=0.9.35",
-    "@types/jasmine": "=2.5.38",
+    "@types/jasmine": "2.8.17",
     "@types/node": "=6.0.51",
     "@types/q": "=0.0.32",
     "angular-mocks": "~1.4.0",
