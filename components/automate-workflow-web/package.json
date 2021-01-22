@@ -46,7 +46,7 @@
     "@types/core-js": "=0.9.35",
     "@types/jasmine": "=2.5.38",
     "@types/node": "=6.0.51",
-    "@types/q": "=0.0.32",
+    "@types/q": "0.0.38",
     "angular-mocks": "~1.4.0",
     "awesome-typescript-loader": "=2.2.4",
     "babel-core": "=6.18.2",
