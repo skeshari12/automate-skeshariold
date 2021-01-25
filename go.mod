@@ -6,7 +6,7 @@ require (
 	cloud.google.com/go v0.60.0 // indirect
 	cloud.google.com/go/storage v1.10.0 // indirect
 	github.com/Azure/azure-sdk-for-go v30.1.0+incompatible
-	github.com/Azure/go-autorest v12.0.0+incompatible
+	github.com/Azure/go-autorest v12.4.3+incompatible
 	github.com/BurntSushi/toml v0.3.1
 	github.com/Masterminds/squirrel v1.1.0
 	github.com/Microsoft/go-winio v0.4.14 // indirect
