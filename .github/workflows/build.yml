@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - master
-      - skeshari/*
+      - branch-*
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
