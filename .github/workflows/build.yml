@@ -2,8 +2,8 @@ name: Build
 on:
   push:
     branches:
-      - master      # The default branch
-      - branch-*    # The other branches to be analyzed
+      - master
+      - skeshari/*
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
