@@ -42,7 +42,7 @@ require (
 	github.com/go-chef/chef v0.23.2-0.20201213054559-3243f736d651
 	github.com/go-delve/delve v1.3.1
 	github.com/go-gorp/gorp v2.0.1-0.20180410155428-6032c66e0f5f+incompatible
-	github.com/gocarina/gocsv v0.0.0-20170928100509-7099e67763c2
+	github.com/gocarina/gocsv v0.0.0-20201208093247-67c824bc04d4
 	github.com/gofrs/uuid v3.3.0+incompatible
 	github.com/golang-migrate/migrate v3.5.4+incompatible
 	github.com/golang/mock v1.4.4
