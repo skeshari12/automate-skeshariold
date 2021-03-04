@@ -68,7 +68,7 @@
     "istanbul-instrumenter-loader": "=1.1.0",
     "jasmine-core": "=2.4.1",
     "jshint": "=2.8.0",
-    "karma": "=0.13.22",
+    "karma": "=2.0.3",
     "karma-browserstack-launcher": "=0.1.11",
     "karma-chrome-launcher": "=0.2.3",
     "karma-coverage": "=1.1.1",
@@ -96,7 +96,7 @@
     "uglify-js": "=2.7.5",
     "url-loader": "=0.5.7",
     "validate-npm-package-license": "=3.0.1",
-    "webpack": "=1.13.3",
+    "webpack": "=2.2.0",
     "webpack-md5-hash": "=0.0.5",
     "webpack-merge": "=0.15.0"
   },
