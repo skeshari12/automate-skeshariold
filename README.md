@@ -84,7 +84,7 @@ The following picture illustrates the Automate 2.0 architecture
 
 ![Automate 2 Architecture](dev-docs/diagrams/a2-architecture.png)
 
-#Sonatype Depshield
+## Sonatype Depshield
 
 [![DepShield Badge](https://depshield.sonatype.org/badges/skeshari12/automate/depshield.svg)](https://depshield.github.io)
 
