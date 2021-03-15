@@ -86,7 +86,7 @@ The following picture illustrates the Automate 2.0 architecture
 
 ## Sonatype Depshield
 
-[![DepShield Badge](https://depshield.sonatype.org/badges/skeshari12/automate/depshield.svg)](https://depshield.github.io)
+![DepShield Badge](https://depshield.sonatype.org/badges/skeshari12/automate/depshield.svg)](https://depshield.github.io)
 
 ## API Compatibility
 
