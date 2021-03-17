@@ -2,6 +2,7 @@
 
 [![Build Status](https://badge.buildkite.com/9c37160ef9872fbdcf42628586fabfbb3048239a99c1f60e3a.svg?branch=master)](https://buildkite.com/chef-oss/chef-automate-master-verify)
 [![Build Status](https://badge.buildkite.com/b550988ee153942e2ed1ad2741ab652b6d9efa76992d022cf8.svg?branch=master)](https://buildkite.com/chef/chef-automate-master-verify-private)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fskeshari12%2Fautomate.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fskeshari12%2Fautomate?ref=badge_shield)
 
 Automate provides a unified view into infrastructure managed by
 Chef, Inspec, and Habitat.
@@ -94,3 +95,7 @@ At this stage in development, the Go libraries and other APIs found in
 this repository are not intended for use outside of Chef Automate. If
 you think part of this repository would help and would like to depend
 on it, please open a GitHub issue so we can discuss it.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fskeshari12%2Fautomate.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fskeshari12%2Fautomate?ref=badge_large)
