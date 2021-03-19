@@ -21,7 +21,7 @@ require (
 	github.com/boltdb/bolt v1.3.2-0.20171120010307-9da317453632
 	github.com/briandowns/spinner v0.0.0-20180123222039-b3ed21e9d3b2
 	github.com/bufbuild/buf v0.20.5
-	github.com/buger/goterm v0.0.0-20180307092342-c9def0117b24
+	github.com/buger/goterm v0.0.0-20200322175922-2f3e71b85129
 	github.com/buger/jsonparser v0.0.0-20180808090653-f4dd9f5a6b44
 	github.com/chef/automate/api/external v0.0.0-00010101000000-000000000000
 	github.com/chef/toml v0.3.1-0.20200730001027-920c30b33b5d
