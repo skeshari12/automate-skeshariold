@@ -67,7 +67,6 @@ require (
 	github.com/lyft/protoc-gen-star v0.4.16-0.20200805193024-077ca8f98fb2
 	github.com/mattn/go-isatty v0.0.12 // indirect
 	github.com/mattn/go-runewidth v0.0.9 // indirect
-	github.com/mattn/go-sqlite3 v1.11.0 // indirect
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/mitchellh/mapstructure v1.3.1
 	github.com/muesli/crunchy v0.0.0-20170927092902-4ec98f770e27
@@ -113,7 +112,7 @@ require (
 	gocloud.dev v0.19.0
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/perf v0.0.0-20190823172224-ecb187b06eb0
+	golang.org/x/perf v0.0.0-20210220033136-40a54f11e909
 	golang.org/x/text v0.3.3
 	golang.org/x/tools v0.0.0-20200806022845-90696ccdc692 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
