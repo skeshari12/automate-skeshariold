@@ -98,7 +98,7 @@
     "validate-npm-package-license": "=3.0.1",
     "webpack": "=1.13.3",
     "webpack-md5-hash": "=0.0.5",
-    "webpack-merge": "=0.15.0"
+    "webpack-merge": "=1.0.0"
   },
   "scripts": {
     "watch": "npm run watch:dev",
